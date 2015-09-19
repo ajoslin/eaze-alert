@@ -15,7 +15,7 @@ var clickEvent = require('value-event/click')
 var types = require('./types.json')
 var styles = require('./styles.json')
 
-var close = require('./close')
+var closeIcon = require('./close')
 
 var Types = Enum(Object.keys(types))
 
@@ -25,7 +25,7 @@ function Alert (data) {
   data = data || {}
 
   return State({
-    type: Observ(data.type || 'basic'),
+    type: Types(data.type || 'basic'),
     closable: Observ(data.closable || false),
     open: Observ(data.open || false),
     mobile: device.mobile,
@@ -42,7 +42,7 @@ function close (state) {
 Alert.render = function render (state, content) {
   if (!state.open) return
 
-  var content = value(content)
+  content = value(content)
 
   var rightPadding = {
     paddingRight: '2em'
@@ -81,7 +81,7 @@ function renderClose (state) {
     'ev-click': clickEvent(state.channels.close)
   }
 
-  return h('button', options, close({
+  return h('button', options, closeIcon({
     fill: rgba(type.borderColor),
     width: size,
     height: size
