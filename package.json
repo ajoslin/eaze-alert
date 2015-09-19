@@ -1,10 +1,10 @@
 {
-  "name": "eaze-alerts",
+  "name": "eaze-alert",
   "main": "index.js",
   "version": "0.0.0",
   "description": "Styled alert component for virtual-dom",
   "license": "MIT",
-  "repository": "eaze/eaze-alerts",
+  "repository": "eaze/eaze-alert",
   "author": {
     "name": "Ben Drucker",
     "email": "bvdrucker@gmail.com",

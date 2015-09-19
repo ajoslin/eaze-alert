@@ -1,4 +1,4 @@
-# eaze-alerts [![Build Status](https://travis-ci.org/eaze/eaze-alerts.svg?branch=master)](https://travis-ci.org/eaze/eaze-alerts)
+# eaze-alert [![Build Status](https://travis-ci.org/eaze/eaze-alert.svg?branch=master)](https://travis-ci.org/eaze/eaze-alert)
 
 > Styled alert component for virtual-dom
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save eaze-alerts
+$ npm install --save eaze-alert
 ```
 
 
 ## Usage
 
 ```js
-var Alert = require('eaze-alerts')
+var Alert = require('eaze-alert')
 var error = Alert({type: 'error'})
 Alert.render(error, 'Something broke!')
 //=> <alert ...>Something broke!</alert>
