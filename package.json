@@ -1,7 +1,7 @@
 {
   "name": "eaze-alert",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Styled alert component for virtual-dom",
   "license": "MIT",
   "repository": "eaze/eaze-alert",
