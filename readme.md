@@ -1,4 +1,4 @@
-# eaze-alerts [![Build Status](https://travis-ci.org/bendrucker/eaze-alerts.svg?branch=master)](https://travis-ci.org/bendrucker/eaze-alerts)
+# eaze-alerts [![Build Status](https://travis-ci.org/eaze/eaze-alerts.svg?branch=master)](https://travis-ci.org/eaze/eaze-alerts)
 
 > Styled alert component for virtual-dom
 

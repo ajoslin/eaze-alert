@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Styled alert component for virtual-dom",
   "license": "MIT",
-  "repository": "bendrucker/eaze-alerts",
+  "repository": "eaze/eaze-alerts",
   "author": {
     "name": "Ben Drucker",
     "email": "bvdrucker@gmail.com",
