@@ -1,0 +1,28 @@
+{
+  "basic": {
+    "color": [96, 125, 139],
+    "background": [243, 247, 249],
+    "borderColor": [96, 125, 139]
+  },
+  "info": {
+    "color": [88, 126, 225],
+    "background": [242, 246, 254],
+    "borderColor": [88, 126, 225]
+  },
+  "success": {
+    "color": [76, 175, 80],
+    "background": [241, 250, 241],
+    "borderColor": [99, 192, 103]
+  },
+  "warning": {
+    "color": [231, 148, 0],
+    "background": [255, 252, 240],
+    "borderColor": [255, 196, 0]
+  },
+  "error": {
+    "color": [238, 88, 56],
+    "background": [253, 240, 237],
+    "borderColor": [238, 88, 56]
+  }
+}
+

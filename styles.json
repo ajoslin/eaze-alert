@@ -1,0 +1,18 @@
+{
+  "base": {
+    "display": "block",
+    "position": "relative",
+    "lineHeight": "1.25em",
+    "borderWidth": "1px",
+    "borderStyle": "solid",
+    "borderRadius": "3px"
+  },
+  "mobile": {
+    "fontSize": "14px",
+    "padding": "1em 0.75em"
+  },
+  "desktop": {
+    "fontSize": "16px",
+    "padding": "1em 1.25em"
+  }
+}

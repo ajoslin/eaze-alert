@@ -1,0 +1,45 @@
+{
+  "name": "eaze-alerts",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Styled alert component for virtual-dom",
+  "license": "MIT",
+  "repository": "bendrucker/eaze-alerts",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "eaze",
+    "alert",
+    "component"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "close.js",
+    "styles.json",
+    "types.json"
+  ],
+  "dependencies": {
+    "color-style": "~1.0.0",
+    "create-svg-size": "~1.0.0",
+    "dover": "~1.1.0",
+    "map-values": "~1.0.1",
+    "observ": "~0.2.0",
+    "observ-enum": "~1.0.0",
+    "observ-mobile": "~2.0.0",
+    "observ-value": "~1.0.0",
+    "value-event": "~5.1.0",
+    "value-pipe": "~1.0.0",
+    "virtual-dom": "^2.0.0",
+    "xtend": "~4.0.0"
+  }
+}
